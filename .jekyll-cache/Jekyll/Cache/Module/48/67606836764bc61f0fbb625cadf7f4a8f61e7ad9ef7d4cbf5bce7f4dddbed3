@@ -1,4 +1,4 @@
-I"�
+I"A
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -6,11 +6,15 @@
       <nav id="site-nav" class="greedy-nav">
         
         <a class="site-title" href="/">
-          Site Title
+          센트롬
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" >Quick-Start Guide</a>
+              <a href="/study/" >study</a>
+            </li><li class="masthead__menu-item">
+              <a href="/develop/" >develop</a>
+            </li><li class="masthead__menu-item">
+              <a href="/all/" >all posts</a>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
