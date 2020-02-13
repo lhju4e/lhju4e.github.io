@@ -18,7 +18,7 @@ layout: category
 
    `cmake [압축 풀고 cmakelist 파일 있는 경로]`
 
-   ![intern6](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern6.png)
+   ![intern6](../images/intern6.png)
 
 2. harfbuzz를 다운받는다.
 
@@ -70,19 +70,19 @@ layout: category
 
    
 
-   ![intern7](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern7.png)
+   ![intern7](../images/intern7.png)
 
    
 
    *빌드중에 이런 에러가 나오면 로그대로 cuda_gl ... .h로 가서 수정*
 
-   ![intern8](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern8.png)
+   ![intern8](../images/intern8.png)
 
    
 
    *오른쪽 사진과 같이 주석처리*
 
-   ![intern9](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern9.png)
+   ![intern9](../images/intern9.png)
 
    
 

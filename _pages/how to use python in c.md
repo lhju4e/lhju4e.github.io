@@ -91,15 +91,15 @@ ex)
 
 
 
-![intern1](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern1.png)
+![intern1](../images/intern1.png)
 
-![intern2](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern2.png)
+![intern2](../images/intern2.png)
 
-![intern3](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern3.png)
+![intern3](../images/intern3.png)
 
-![intern4](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern4.png)
+![intern4](../images/intern4.png)
 
-![intern5](C:\Users\JH\Desktop\project\lhju4e.github.io\images\intern5.png)
+![intern5](../images/intern5.png)
 
 
 
