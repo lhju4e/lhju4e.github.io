@@ -58,7 +58,7 @@ layout: category
 
 ## Proposed Approach
 
-![](C:\Users\JH\Desktop\1234.JPG)
+![](../images/paper1.JPG)
 
 - 강화학습을 통해 DSN을 훈련시킨다.
 - DSN은 비디오 Vi를 받아서, 어떤 비디오 부분이 요약 S에 선택될지를 결정하는 액션A를 취한다.
