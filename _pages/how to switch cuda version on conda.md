@@ -6,11 +6,6 @@ layout: category
 
 
 
---------------------------
-# conda에서 cuda버전 다르게 쓰기
-
------------------------------
-
 `cd $CONDA_PREFIX` 를 통해 ~/anaconda3/envs/*[가상환경이름]* 으로 옴
 
 `mkdir -p ./etc/conda/activate.d`

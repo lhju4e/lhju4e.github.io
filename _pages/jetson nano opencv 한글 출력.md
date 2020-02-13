@@ -6,9 +6,7 @@ layout: category
 
 
 
---------------------------------------
-# jetson nano에서 opencv contrib(freetype2, harfbuzz)포함하여 빌드하기 - 한글 출력
----------------------------------
+
 1. freetype2를 다운받는다.(tar.bz2 압축풀기 : tar -xvf *파일명*)
 
    다운 링크 : https://sourceforge.net/projects/freetype/files/freetype2/
