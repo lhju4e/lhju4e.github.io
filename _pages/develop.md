@@ -3,8 +3,8 @@ title: "개발"
 permalink: /develop/
 layout: category
 ---
-
-=======================================
+# 
+# 
 # internship
 -----------------------------------
 [how to use python embedding](https://lhju4e.github.io/develop/intern1)
