@@ -1,7 +1,13 @@
 ---
 title: "Video Summerization 논문"
-permalink: /study/paper1
-layout: category
+excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
+
+categories:
+  - Blog
+tags:
+  - Blog
+last_modified_at: 2019-04-13T08:06:00-05:00
+
 ---
 
 
