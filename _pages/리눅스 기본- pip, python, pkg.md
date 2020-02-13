@@ -1,15 +1,14 @@
 ---
 title: "리눅스 기본 설정"
-excerpt: "기본 pip, python설정, pkg-config"
 permalink: /develop/intern4
 layout: category
 ---
 
 
 
-
+----------------------------------------
 # 리눅스 기본 설정들 - pip, python, pkg-config
-
+--------------------------------
 
 
 ### 기본 pip 설정

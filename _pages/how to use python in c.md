@@ -1,14 +1,13 @@
 ---
 title: "how to use python in c"
-excerpt: "Python embedding"
 permalink: /develop/intern1
 layout: category
 ---
 
 
-
+------------------
 # c에서 python 사용하기
-
+---------------------
 
 
 ###  파일 임포트하기
