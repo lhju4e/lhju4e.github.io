@@ -2,7 +2,8 @@
 title: "Video Summerization 논문"
 excerpt: "Video Summerization with RL"
 permalink: /study/paper1
-
+layout: posts
+author_profile: true
 ---
 
 
