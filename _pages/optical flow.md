@@ -41,7 +41,7 @@ $$
 $$
 \frac{\partial I}{\partial x}\frac{\Delta x}{\Delta t}+\frac{\partial I}{\partial y}\frac{\Delta y}{\Delta t}+\frac{\partial I}{\partial t}\frac{\Delta t}{\Delta t} = 0
 $$
-이 된다. 
+이 된다. \\ \\
 $$
 \frac{\Delta x}{\Delta t}는 \ t시간만큼의\ x의\ 변화량.\ 모션\ 벡터\ u이고 \\ \frac{\Delta y}{\Delta t}는\ t시간만큼의\ y의\ 변화량.\ 모션\ 벡터\ v이다.
 $$
@@ -68,26 +68,27 @@ $$
 
 - 이 가정에 위의 (10.6)식을 대입하면
   $$
-  A = \begin{bmatrix}
-  \frac{\partial I(y_1,\ x_1)}{\partial y} &  \frac{\partial I(y_1,x_1)}{\partial x} \\
-  \vdots  & \vdots \\
-  \frac{\partial I(y_n,\ x_n)}{\partial x} & \frac{\partial I(y_n,\ x_n)}{\partial x}
-  \end{bmatrix},\ v = (v, u),\ b= \begin{bmatrix}
-  -\frac{\partial I(y_1,\ x_1)}{\partial t} \\
-  \vdots\\
-  -\frac{\partial I(y_n,\ x_n)}{\partial t}
-  
-  \end{bmatrix}
+ A = \begin{bmatrix}
+\frac{\partial I(y_1,\ x_1)}{\partial y} &  \frac{\partial I(y_1,x_1)}{\partial x} \\
+\vdots  & \vdots \\
+\frac{\partial I(y_n,\ x_n)}{\partial x} & \frac{\partial I(y_n,\ x_n)}{\partial x}
+\end{bmatrix},\ v = (v, u),\ b= \begin{bmatrix}
+-\frac{\partial I(y_1,\ x_1)}{\partial t} \\
+\vdots\\
+-\frac{\partial I(y_n,\ x_n)}{\partial t}
+
+
+\end{bmatrix}
   $$
 
-  $ Av^T = b $
-  n은 이웃 영역에 속하는 화소의 개수
+  $ Av^T = b $\\
+  n은 이웃 영역에 속하는 화소의 개수\\
   $v=(v,u)$는 화소$(y,x)$의 모션 벡터이다.
   
-  이 식을 v에 대해 정리하면 밑의 식이 된다.
+  이 식을 v에 대해 정리하면 밑의 식이 된다.\\
   $$
   v^T = (A^TA)^{-1}A^Tb
-  $$
+  $$\\
   위의 행렬에 대입해서 풀면 모션 벡터 v를 얻을 수 있다.
 
   해당 식을 반복해서 계산해 벡터 v를 적용시키는데, v가 임계값보다 작으면 수렴했다고 간주하고 멈춘다.
