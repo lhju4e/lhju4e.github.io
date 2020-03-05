@@ -41,7 +41,11 @@ $$
 $$
 \frac{\partial I}{\partial x}\frac{\Delta x}{\Delta t}+\frac{\partial I}{\partial y}\frac{\Delta y}{\Delta t}+\frac{\partial I}{\partial t}\frac{\Delta t}{\Delta t} = 0
 $$
-이 된다. \\ \\
+이 된다.
+
+\\
+
+
 $$
 \frac{\Delta x}{\Delta t}는 \ t시간만큼의\ x의\ 변화량.\ 모션\ 벡터\ u이고 \\ \frac{\Delta y}{\Delta t}는\ t시간만큼의\ y의\ 변화량.\ 모션\ 벡터\ v이다.
 $$
@@ -67,23 +71,9 @@ $$
 - **화소 (y,x)를 중심으로 하는 윈도우 영역 N(y,x)의 광류는 같다고 가정**한다. = 이웃 영역에 속하는 모든 화소는 같은 모션 벡터를 가져야 한다.
 
 - 이 가정에 위의 (10.6)식을 대입하면
-  $$
- A = \begin{bmatrix}
-\frac{\partial I(y_1,\ x_1)}{\partial y} &  \frac{\partial I(y_1,x_1)}{\partial x} \\
-\vdots  & \vdots \\
-\frac{\partial I(y_n,\ x_n)}{\partial x} & \frac{\partial I(y_n,\ x_n)}{\partial x}
-\end{bmatrix},\ v = (v, u),\ b= \begin{bmatrix}
--\frac{\partial I(y_1,\ x_1)}{\partial t} \\
-\vdots\\
--\frac{\partial I(y_n,\ x_n)}{\partial t}
+![math1](../images/mathimage.png)
 
 
-\end{bmatrix}
-  $$
-
-  $ Av^T = b $\\
-  n은 이웃 영역에 속하는 화소의 개수\\
-  $v=(v,u)$는 화소$(y,x)$의 모션 벡터이다.
   
   이 식을 v에 대해 정리하면 밑의 식이 된다.\\
   $$
