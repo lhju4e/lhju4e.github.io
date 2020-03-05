@@ -2,6 +2,7 @@
 title: "Optical flow"
 permalink: /study/optical_flow
 layout: category
+use_math: true
 ---
 
 
